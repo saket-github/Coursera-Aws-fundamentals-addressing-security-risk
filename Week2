@@ -1,0 +1,129 @@
+Week 2 Quiz 1
+TOTAL POINTS 5
+
+1.Question 1
+Which statement is true?
+
+You can only attach 1 elastic network interface (ENI) to each EC2 instance launched in VPC
+
+By default, each instance that you launch into a nondefault subnet has a public IPv4 address
+
+To use AWS Private Link, the VPC is required to have a NAT device
+
+Traffics within an Availability Zone, or between Availability Zones in all Regions, are routed over the AWS private global network  (CORRECT)
+
+
+2.Question 2
+What is a Security Group?
+
+Act as a firewall for associated Amazon EC2 instances, controlling both inbound and outbound traffic at the instance level (CORRECT)
+
+Act as a firewall for associated subnets, controlling both inbound and outbound traffic at the subnet level
+
+Control who in your organization has permission to create and manage VPC flow logs
+
+Capture information about the IP traffic going to and from network interfaces in your VPC
+
+
+3.Question 3
+How many types of VPC Endpoints are available?
+
+Many. Each AWS Service will be supported by 1 type of VPC Endpoints
+
+Two: Amazon S3 and DynamoDB
+
+Two: Gateway Endpoint and Interface Endpoint (CORRECT)
+
+One: VPC
+
+
+4.Question 4
+Which of these AWS resources cannot be monitored using VPC Flow logs?
+
+VPC
+
+A subnet in a VPC
+
+A network interface attached to EC2
+
+An Internet Gateway attached to VPC (CORRECT)
+
+
+5.Question 5
+You can route traffic to a NAT Gateway through:
+
+Site-to-Site VPN connection
+
+AWS Direct Connect
+
+VPC Peering
+
+None of the above (CORRECT) 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Week 2 Quiz 2
+TOTAL POINTS 5
+
+
+1.Question 1
+What AWS Services keeps a record of who is interacting with your AWS Account?
+
+Amazon ServiceLog
+
+Amazon Auditor
+
+AWS AccountMonitor
+
+AWS CloudTrail (CORRECT)
+
+
+2.Question 2
+Which of the following are monitoring and logging services available on AWS? Select all that apply.
+
+AWS CloudWatch (CORRECT)
+
+AWS CloudLogger
+
+Amazon Beehive
+ 
+Amazon Config (CORRECT)
+
+
+3.Question 3
+Which of the following sections from Trusted Advisor exists under the Well-Architected Framework as a pillar as well?
+
+Cost Transparency
+
+Operational Excellence
+
+Security (CORRECT)
+
+Fault Tolerance
+
+
+4.Question 4
+If you wanted to accomplish threat detection in your AWS Infrastructure, which of the following services would you use?
+
+AWS GuardDuty (CORRECT)
+
+Amazon ThreatDetector
+
+Amazon S3
+
+AWS DynamoDB
+
+
+5.Question 5
+Which AWS Service has an optional agent that can be deployed to EC2 instances to perform a security assessment?
+
+AWS Assessor
+
+Amazon Inspector (CORRECT)
+
+AWS EC2Deploy
+
+Amazon Agent
+
+
+

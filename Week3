@@ -1,0 +1,96 @@
+Week 3 Quiz 1
+
+1.Question 1
+What requirement must you adhere to in order to deploy an AWS CloudHSM?
+
+Run the HSM in two regions
+
+Provision the HSM in a VPC (CORRECT)
+
+Deploy an EBS volume for the HSM
+
+Call AWS Support first to enable it
+
+
+2.Question 2
+What AWS KMS keys are used to encrypt and decrypt data in AWS?
+
+Customer master keys (CORRECT)
+
+AWS master keys
+
+Seller recrypt keys
+
+User recrypt keys
+
+
+3.Question 3
+How much data can you encrypt/decrypt using an Customer Master Key?
+
+Up to 4MB
+
+Up to 4TB
+
+Up to 1MB
+
+Up to 4KB (CORRECT)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Week 3 Quiz 2
+
+1.Question 1
+The purpose of encrypting data when it is in transit between systems and services is to prevent (choose 3 correct answers):
+
+unauthenticated server and client communication
+
+eavesdropping (CORRECT)
+
+unauthorized alterations (CORRECT)
+
+unauthorized copying (CORRECT)
+
+2.Question 2
+Which protocol below is an industry-standard cryptographic protocol used for encrypting data at the transport layer?
+
+HTTPS
+
+TLS (CORRECT)
+
+X.509
+
+IPSec
+
+3.Question 3
+How do you encrypt an existing un-encrypted EBS volume?
+
+EBS volumes are encrypted at rest by default
+
+Enable Encryption by Default feature
+
+Take a snapshot for EBS volume, and create new encrypted volume for this snapshot (CORRECT)
+
+Enable encryption for EC2 instance, which will encrypt the attached EBS volumes
+
+4.Question 4
+Can you encrypt just a subset of items in a DynamoDB table?
+
+Yes
+
+No (CORRECT)
+
+5.Question 5
+When you enable encryption for RDS DB instance, what would not be encrypted?
+
+JBDC connection (CORRECT)
+
+Transaction logs
+
+Automated backups
+
+Read Replicas
+
+Snapshots
+
+
+

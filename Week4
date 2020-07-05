@@ -80,3 +80,230 @@ A URL entry point for a web service (CORRECT)
 A websocket for customer connections
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+End of Course Assessment
+
+1.Question 1
+Which statement is true?
+
+You can only attach 1 elastic network interface (ENI) to each EC2 instance launched in VPC
+
+By default, each instance that you launch into a nondefault subnet has a public IPv4 address
+
+To use AWS Private Link, the VPC is required to have a NAT device
+
+Traffics within an Availability Zone, or between Availability Zones in all Regions, are routed over the AWS private global network (CORRECT)
+
+2.Question 2
+How many types of VPC Endpoints are available?
+
+Many. Each AWS Service will be supported by 1 type of VPC Endpoints
+
+Two: Amazon S3 and DynamoDB
+
+Two: Gateway Endpoint and Interface Endpoint (CORRECT)
+
+One: VPC
+
+3.Question 3
+Which of these AWS resources cannot be monitored using VPC Flow logs?
+
+VPC
+
+A subnet in a VPC
+
+A network interface attached to EC2
+
+An Internet Gateway attached to VPC (CORRECT)
+
+4.Question 4
+Which of the following are monitoring and logging services available on AWS? Select all that apply.
+
+AWS CloudWatch (CORRECT)
+
+AWS CloudLogger
+
+Amazon Beehive
+
+Amazon Config (CORRECT)
+
+5.Question 5
+Which of the following sections from Trusted Advisor exists under the Well-Architected Framework as a pillar as well?
+
+Cost Transparency
+
+Operational Excellence
+
+Security (CORRECT)
+
+Fault Tolerance
+
+6.Question 6
+Which solution below grants AWS Management Console access to an DevOps engineer?
+
+Enable Single sign-on on AWS accounts by using federation and AWS IAM
+
+Create a user for the security engineer in AWS Cognito User Pool
+
+Create IAM user for the engineer and associate relevant IAM managed policies to this IAM user (CORRECT)
+
+Use AWS Organization to scope down IAM roles and grant the security engineer access to this IAM roles
+
+7.Question 7
+Which of these services doesn't authenticate users to access AWS resources using existing credentials on their current corporate identity?
+
+Amazon Cognito
+
+AWS SSO
+
+IAM
+
+AD Connector (CORRECT)
+
+8.Question 8
+What is the main difference between Cognito User Pool and Cognito Identity Pool?
+
+User Pool cannot use public identity providers (e.g Facebook, Amazon, ...) while Identity Pool can
+
+Identity Pools provide temporary AWS credentials (CORRECT)
+
+Only User Pools has feature to enable MFA
+
+User Pools support both authenticated and unauthenticated identities
+
+9.Question 9
+What security mechanism can add an extra layer of protection to your AWS account in addition to a username password combination?
+
+Transport Layer Protocol or TCP
+
+Mult-factor Authentication or MFA (CORRECT)
+
+Iris Scan Service or ISS
+
+Scure Bee Service or SBS
+
+10.Question 10
+If a user wanted to read from a DynamoDB table what policy would you attach to their user profile?
+
+AmazonDynamoDBFullAccess
+
+AWSLambdaInvocation-DynamoDB
+
+AmazonDynamoDBReadOnlyAccess (CORRECT)
+
+AWSLambdaDynamoDBExecutionRole
+
+11.Question 11
+What are valid MFA or Multi-factor Authentication options available to use on AWS? Select all that apply.
+
+Gemalto token (CORRECT)
+
+Blizzard Authenticator
+
+yubiKey (CORRECT)
+
+Google Authenticator (CORRECT)
+
+AWS IoT button
+
+12.Question 12
+What requirement must you adhere to in order to deploy an AWS CloudHSM?
+
+Run the HSM in two regions
+
+Provision the HSM in a VPC (CORRECT)
+
+Deploy an EBS volume for the HSM
+
+Call AWS Support first to enable it
+
+13.Question 13
+How much data can you encrypt/decrypt using an Customer Master Key?
+
+Up to 4MB
+
+Up to 4TB
+
+Up to 1MB
+
+Up to 4KB (CORRECT)
+
+14.Question 14
+The purpose of encrypting data when it is in transit between systems and services is to prevent (choose 3 correct answers):
+
+unauthenticated server and client communication
+
+eavesdropping (CORRECT)
+
+unauthorized alterations (CORRECT)
+
+unauthorized copying (CORRECT)
+
+15.Question 15
+Which protocol below is an industry-standard cryptographic protocol used for encrypting data at the transport layer?
+
+HTTPS
+
+TLS (CORRECT)
+
+X.509
+
+IPSec
+
+16.Question 16
+How do you encrypt an existing un-encrypted EBS volume?
+
+EBS volumes are encrypted at rest by default
+
+Enable Encryption by Default feature
+
+Take a snapshot for EBS volume, and create new encrypted volume for this snapshot (CORRECT)
+
+Enable encryption for EC2 instance, which will encrypt the attached EBS volumes
+
+17.Question 17
+When you enable encryption for RDS DB instance, what would not be encrypted?
+
+JBDC connection (CORRECT)
+
+Transaction logs
+
+Automated backups
+
+Read Replicas
+
+Snapshots
+
+18.Question 18
+What language does Amazon Athena support?
+
+SQL (CORRECT)
+
+Java
+
+C++
+
+dogescript
+
+19.Question 19
+What is the name of the model that shows how security is handled by AWS and it’s customers in the AWS Cloud?
+
+Cloud Security Model
+
+Role Based Model
+
+Shared Responsibility Model (CORRECT)
+
+AWS Authentication Model
+
+20.Question 20
+What is a customer access endpoint?
+
+A customer token
+
+A signed code segment
+
+A URL entry point for a web service (CORRECT)
+
+A websocket for customer connections
